@@ -1,0 +1,12 @@
+[
+  {
+    "path": "fixtures/comparison.json",
+    "sha256": "927ae8b54c903a75f09e51c822f7f5a99126071539300d1e7f5fc2ba4e44cc25",
+    "size_bytes": 318
+  },
+  {
+    "path": "fixtures/transport.json",
+    "sha256": "0ca6354710a6c561f9294a19ec1d570378b440fa3383fe44fbf3562af15a613c",
+    "size_bytes": 747
+  }
+]

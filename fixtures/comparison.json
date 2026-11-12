@@ -1,0 +1,26 @@
+{
+  "regularization": [
+    1,
+    0.1,
+    0.001
+  ],
+  "max_iterations": 10000,
+  "marginal_tolerance": 1e-09,
+  "lexicographic_edge_order": true,
+  "remove_edge_case": [
+    [
+      "s2",
+      "t3"
+    ]
+  ],
+  "infeasible_edge_case": [
+    [
+      "s2",
+      "t3"
+    ],
+    [
+      "s0",
+      "t3"
+    ]
+  ]
+}

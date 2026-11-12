@@ -1,0 +1,57 @@
+{
+  "source": [
+    {
+      "id": "s0",
+      "position": [
+        0
+      ],
+      "mass": "1/2"
+    },
+    {
+      "id": "s2",
+      "position": [
+        2
+      ],
+      "mass": "1/2"
+    }
+  ],
+  "target": [
+    {
+      "id": "t1",
+      "position": [
+        1
+      ],
+      "mass": "1/2"
+    },
+    {
+      "id": "t3",
+      "position": [
+        3
+      ],
+      "mass": "1/2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "s0",
+      "target": "t1",
+      "cost": 1
+    },
+    {
+      "source": "s0",
+      "target": "t3",
+      "cost": 9
+    },
+    {
+      "source": "s2",
+      "target": "t1",
+      "cost": 1
+    },
+    {
+      "source": "s2",
+      "target": "t3",
+      "cost": 1
+    }
+  ],
+  "cost_unit": "squared_sensor_units"
+}
